@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Honk&family=Iceberg&display=swap');
+
+/**Xzavier Anderson Styles.css**/
+
+h1 {
+font-family: Iceberg, Helvetica, sans-serif;
+font-size: 3em;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: #2c3e50;
+}
+
+h2 {
+  font-family: Iceberg, Helvetica, sans-serif; 
+  font-size: 2em;
+  font-weight: 700;
+  color: #3498db;
+}
+body {
+    font-family: Concert One, Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333333;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+ul {
+    line-height: 1.6;
+    margin-left: 40px;
+}
+
+li {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
