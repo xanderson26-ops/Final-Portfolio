@@ -1,0 +1,137 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 33, 33);
+    color: #34e008;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #34e008;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Me Section */
+#about-me {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-me h2 {
+    font-size: 1.8em;
+    color: #34e008;
+}
+
+#about-me p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+
+#projects {
+background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects {
+    margin-top: 40px;
+}
+
+#projects h2 {
+    font-size: 1.8em;
+    color: #34e008;
+}
+
+#projects p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #34e008;
+}
+
+th {
+    background-color: #34e008;
+    color: black;
+    font-size: 1.1em;
+}
+
+td {
+    font-size: 1em;
+}
+
+/* Link Styling */
+a {
+    color: #086de0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Learned*/
+#skills {
+  background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    font-size: 1.8em;
+    color: #34e008;
+}
+
+#skills p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
